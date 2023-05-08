@@ -11,17 +11,17 @@ export const LoginForm = function ({
         e.preventDefault();
         login(e);
       } }
-      className="flex h-127 w-127 items-center justify-center rounded-full border border-green-700 ring-2 ring-red-400"
+      className="flex h-127 w-127 items-center justify-center border border-green-700"
     >
       <input
         type="text"
         id="login"
         placeholder="Ваше имя"
-        className="mx-2 h-12 rounded-md border border-slate-400 bg-black-800 text-black placeholder-slate-400 focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-red-500"
+        className="mx-2 h-12 rounded-md border border-slate-400 bg-black-800 text-black placeholder-slate-400 focus:border-green-500 focus:outline-none focus:ring-1 focus:box-red-500"
       ></input>
       <button
         type="submit"
-        className="mx-2 flex h-12 w-12 items-center justify-center rounded-full bg-red-700 text-white"
+        className="mx-2 flex h-12 w-12 items-center justify-center  bg-red-700 text-white"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
